@@ -384,6 +384,21 @@ footer {
     padding: 50px;
   }
 
+  .header-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  header .header-container .content {
+    display: block;
+  }
+
+  .header-placeholder {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+  }
+
   .about {
     display: block;
   }
@@ -413,6 +428,14 @@ footer {
     gap: 30px;
   }
 
+  .services .services-cards {
+    grid-template-columns: 1fr;
+  }
+
+  .services .services-cards .card img {
+    left: 80px;
+  }
+
   .projects-header {
     margin: auto;
     width: 100%;
@@ -429,6 +452,25 @@ footer {
 
   .sayhi-header+div {
     display: block;
+  }
+
+  .sayhi-messenger {
+    display: block;
+    text-align: center;
+  }
+
+  .sayhi-messenger input {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .sayhi-messenger .socials {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 10px auto;
   }
 }
 
